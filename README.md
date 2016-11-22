@@ -1,9 +1,9 @@
 saga-xmpp
 =========
 
-[![Build Status](https://img.shields.io/travis/altenwald/saga/master.svg)](https://travis-ci.org/altenwald/saga)
-[![Codecov](https://img.shields.io/codecov/c/github/altenwald/saga.svg)](https://codecov.io/gh/altenwald/saga)
-[![License: LGPL 2.1](https://img.shields.io/github/license/altenwald/saga.svg)](https://raw.githubusercontent.com/altenwald/saga/LICENSE)
+[![Build Status](https://img.shields.io/travis/altenwald/saga-xmpp/master.svg)](https://travis-ci.org/altenwald/saga-xmpp)
+[![Codecov](https://img.shields.io/codecov/c/github/altenwald/saga-xmpp.svg)](https://codecov.io/gh/altenwald/saga-xmpp)
+[![License: LGPL 2.1](https://img.shields.io/github/license/altenwald/saga-xmpp.svg)](https://raw.githubusercontent.com/altenwald/saga-xmpp/LICENSE)
 
 An XMPP Server with unreliable and mobile networks in mind.
 
