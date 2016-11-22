@@ -1,0 +1,9 @@
+-sname saga
+
+-setcookie saga_cookie
+
++K true
++A 30
++P 1000000
+
+-env ERL_MAX_PORTS 4096000
