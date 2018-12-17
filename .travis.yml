@@ -1,21 +1,9 @@
-language: erlang
-script: "./rebar3 do eunit, cover"
-install: "sudo pip install codecov"
-after_success:
-- ./covertool -cover _build/test/cover/eunit.coverdata -appname saga -output cobertura.xml -src apps/saga/src
-- codecov
-otp_release:
-- 18.3
-- 18.2.1
-- 18.2
-- 18.1
-- 18.0
-- 17.5
-- 17.4
-# this version fails with rebar3
-#- 17.3
-- 17.1
-- 17.0
+language: elixir
+script: "mix do bootstrap, test"
+after_success: "bash <(curl -s https://codecov.io/bash)"
+otp_release: 21.2
+elixir:
+  - 1.7.4
 notifications:
   slack:
     secure: R/DFvrTxdCqOtfQ9Fp9x21Dsd74nltDk98LR8Gq/hydJIR8IC6I62b8XLje74YFb0yjtXc6v3AIrZAu8WuLDn6fij+yGV0nRy4z3pZA2Sq9qN1QEZ2MYpRJWy36ZU4qf/ST3ZcUArIQr7hGslpSEJy7f6PhKajcU/5p97Ps3k2s=
